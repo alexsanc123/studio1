@@ -23,7 +23,7 @@ let app = createApp({
 			this.setActive(i - 1);
 		},
 
-		clearCompleted () {
+		clearCompleted () {	
 			this.tasks = this.tasks.filter(task => !task.done);
 		},
 
